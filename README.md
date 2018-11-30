@@ -18,11 +18,11 @@ Para ter acesso ao codigo basta fazer um git clone:
 	https://github.com/rserafael/BinarySearchTree.git/
   
 O proximo passo é configurar e instalar as dependências e bibliotecas utilizadas:
-   npm install --save
+   `npm install --save`
    
 # Teste
  para execura o teste basta abrir no terminal a pasta onde está o arquivo package.json e digitar:
-   mocha
+   `mocha`
 
 # Documentação da API BinarySearchTree
 
