@@ -1,10 +1,10 @@
-#Binary Search Tree
+# Binary Search Tree
 
 # Indice
 - [Descrição](https://github.com/rserafael/BinarySearchTree#descrição)
 - [Instalação](https://github.com/rserafael/BinarySearchTree#instalação)
 - [Teste](https://github.com/rserafael/BinarySearchTree#teste)
-- [Documentação da API Binary Search Tree](https://github.com/rserafael/BinarySearchTree#documentação-da-api-binary-search-tree)
+- [Documentação da API Binary Search Tree](https://github.com/rserafael/BinarySearchTree#documentação-da-api-binarysearchtree)
 - [Documentação da API Node](https://github.com/rserafael/BinarySearchTree#documentação-da-api-node)
 
 # Descrição 
