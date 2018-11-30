@@ -11,7 +11,7 @@ class BinarySearchTree{
             this.root.setParent(null);
         }
         else{
-            throw Error("root node must be of type Node.");
+            throw TypeError("root node must be of type Node.");
         }
     }
     hasRoot(){
@@ -44,7 +44,7 @@ class BinarySearchTree{
             }
         }
         else{
-            throw Error("Parameter must be a number.");
+            throw TypeError("Parameter must be a number.");
         }
     }
     search(key){
@@ -56,7 +56,7 @@ class BinarySearchTree{
             return x;
         }
         else{
-            throw Error("Key must be a number.");
+            throw TypeError("Key must be a number.");
         }
     }
     transplant(u, v){
@@ -154,7 +154,7 @@ class BinarySearchTree{
             }
         }
         else{
-            throw Error(`The three doesn't have a ${number} key.`);
+            throw TypeError(`The three doesn't have a ${number} key.`);
         }
     }
 }

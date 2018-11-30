@@ -10,24 +10,24 @@ class Node{
             this.key = key;
         }
         else{
-            throw Error("key must be of the type number.");
+            throw TypeError("key must be of the type number.");
         }
     }
     setParent(parent){
         if(!(parent instanceof Node) && parent !== null){
-            throw Error("parent must be a node object.");
+            throw TypeError("parent must be a node object.");
         }
         this.parent = parent;
     }
     setLeft(left){
         if(!(left instanceof Node) && left !== null){
-            throw Error("left must be a node object.");
+            throw TypeError("left must be a node object.");
         }
         this.left = left;
     }
     setRight(right){
         if(!(right instanceof Node) && right !== null){
-            throw Error("right must be a node object.");
+            throw TypeError("right must be a node object.");
         }
         this.right = right;
     }
