@@ -1,11 +1,11 @@
 #Binary Search Tree
 
 # Indice
-- [Descrição](https://github.com/rserafael/BinarySearchTree/#descrição)
-- [Instalação](https://github.com/rserafael/BinarySearchTree/#instalação)
-- [Documentação da API Binary Search Tree](https://github.com/rserafael/BinarySearchTree/#documentação-da-API-Binary-Search-Tree)
-- [Documentação da API](https://github.com/pedroeusebio/challenge-stone#documentação-da-api)
-- [Referências](https://github.com/pedroeusebio/challenge-stone#referências) 
+- [Descrição](https://github.com/rserafael/BinarySearchTree#descrição)
+- [Instalação](https://github.com/rserafael/BinarySearchTree#instalação)
+- [Teste](https://github.com/rserafael/BinarySearchTree#teste)
+- [Documentação da API Binary Search Tree](https://github.com/rserafael/BinarySearchTree#documentação-da-api-binary-search-tree)
+- [Documentação da API Node](https://github.com/rserafael/BinarySearchTree#documentação-da-api-node)
 
 # Descrição 
   Este repositório contém duas classes principais. A primeira é a classe Node cujas instâncias servem de modelagem para os nós de uma árvore binária. Já a segunda é a própria classe BinarySearchTree que modela a árvore em si.
@@ -19,6 +19,10 @@ Para ter acesso ao codigo basta fazer um git clone:
   
 O proximo passo é configurar e instalar as dependências e bibliotecas utilizadas:
    npm install --save
+   
+# Teste
+ para execura o teste basta abrir no terminal a pasta onde está o arquivo package.json e digitar:
+   mocha
 
 # Documentação da API BinarySearchTree
 
