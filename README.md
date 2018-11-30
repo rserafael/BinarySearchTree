@@ -47,7 +47,7 @@ O proximo passo é configurar e instalar as dependências e bibliotecas utilizad
 
 ## setRoot
 
-  Este método configura a raiz da árvore com um objeto instância da clase Node. Caso não seja passado ou passado algum objeto de outro tipo ocorre uma exceço do tipo TypeError.
+  Este método configura a raiz da árvore com um objeto instância da clase Node. Caso não seja passado ou passado algum objeto de outro tipo ocorre uma exceção do tipo TypeError.
   Como se trata de uma raiz o parente deste nó é configurado como nulo.
  
 ## hasRoot
