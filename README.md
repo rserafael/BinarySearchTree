@@ -16,7 +16,7 @@ O proximo passo é configurar e instalar as dependências e bibliotecas utilizad
 
 # Documentação da API BinarySearchTree
 
-## Construtor
+## Constructor
   
   O construtor da árvore binária exige um nó raiz de inicialização. A configuração da raiz é feita através da chamada do método setRoot.
   Além disso, é instaciada uma lista que vazia onde serão armazenadas as chaves dos nós durante o método inorderWalk.
@@ -36,23 +36,70 @@ O proximo passo é configurar e instalar as dependências e bibliotecas utilizad
  
 ## Search
 
- Método de procura de chave. Se encotra a chave retorna o nó, caso contrário retorna null.
+  Método de procura de chave. Se encotra a chave retorna o nó, caso contrário retorna null.
  
  
 ## getInorderWalk
 
- Método que retorna uma lista ordenada de acordo com um percurso ("walk") de árvore em ordem, no qual a raiz está no meio da lista.
+  Método que retorna uma lista ordenada de acordo com um percurso ("walk") de árvore em ordem, no qual a raiz está no meio da lista.
  
 ## minimum & maximum
-  	Os dois métodos retornam o nó que contém a menor e a maior chave respectivamente. Caso a árvore esteja vazia retorna-se null.
+  Os dois métodos retornam o nó que contém a menor e a maior chave respectivamente. Caso a árvore esteja vazia retorna-se null.
   
 ## delete
-	Deleta o nó que contém a chave determinada. A chave precisa ser um objeto numérico e se o nó for encontrado será deletado da árvore mantendo, porém, as propriedades da árvore.
- 
+  Deleta o nó que contém a chave determinada. A chave precisa ser um objeto numérico e se o nó for encontrado será deletado da árvore mantendo, porém, as propriedades da árvore.
  
 
 # Documentação da API Node
 
 ## Constructor
-
+  O constructor da árvore exige ao menos a chave para inicializá-la. A chave precisa ser um objeto numérico e por tanto, o nó só pode conter números.
+  Além da chave, o construtor inicializa o parente e os filhos, tanto da direita quanto da esquerda. O valor padrão é null, e fora isso só é aceito objetos instâncias da classe Node.
+  
+## Setters
+  Métodos de configuração dos atributos.
+  
+### setKey
+  Configura a chave que dever ser um número.
+  
+### setParent
+  Configura o nó pai que dever ser um objeto do tipo Node.
+  
+### setLeft
+  Configura o nó filho da esquerda que dever ser um objeto do tipo Node.
+  
+### setRight
+  Configura o nó filho da direita que dever ser um objeto do tipo Node.
 	
+## Getters
+  Métodos de acesso aos atributos da instância. Os mesmo podem ser acessados diretamente já que o javascript não contém mecanismos de torná-los privados
+  
+### getKey
+  Retorna da chave do nó.
+  
+### getParent
+  Retorna o nó pai ou nulo se não existir.
+  
+### getLeft
+  Retorna o nó filho da esquerda ou nulo se não existir.
+ 
+### getRight
+  Retorna o nó filho da direita ou nulo se não existir.
+
+### getParentKey 
+  Retorna a chave do nó pai ou nulo se não existir.
+  
+### getLeftKey
+  Retorna a chave do nó filho da esquerda ou nulo se não existir.
+  
+### getRightKey
+  Retorna a chave do nó filho da direita ou nulo se não existir.
+  
+### toString
+  Retorna uma string com o nome da classe seguido dos atributos da classe no formato JSON. 
+  
+# Test
+## Test2
+### Test3
+#### Test4
+##### Test5
