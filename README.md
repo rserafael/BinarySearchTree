@@ -1,5 +1,11 @@
-# BinarySearchTree
-Uma árvore binária de busca para nodejs.
+#Binary Search Tree
+
+# Indice
+- [Descrição](https://github.com/rserafael/BinarySearchTree/#descrição)
+- [Instalação](https://github.com/rserafael/BinarySearchTree/#instalação)
+- [Documentação da API Binary Search Tree](https://github.com/rserafael/BinarySearchTree/#documentação-da-API-Binary-Search-Tree)
+- [Documentação da API](https://github.com/pedroeusebio/challenge-stone#documentação-da-api)
+- [Referências](https://github.com/pedroeusebio/challenge-stone#referências) 
 
 # Descrição 
   Este repositório contém duas classes principais. A primeira é a classe Node cujas instâncias servem de modelagem para os nós de uma árvore binária. Já a segunda é a própria classe BinarySearchTree que modela a árvore em si.
@@ -16,6 +22,20 @@ O proximo passo é configurar e instalar as dependências e bibliotecas utilizad
 
 # Documentação da API BinarySearchTree
 
+## Descrição
+
+  Uma árvore binária de busca para nodejs.
+  
+## Atributos
+
+### root
+
+  Nó raiz da árvore.
+     
+### walkArray
+  
+  Lista que armazena as chaves na ordem da coletagem do percurso. Não deve ser acessada diretamente apenas através do método 
+     
 ## Constructor
   
   O construtor da árvore binária exige um nó raiz de inicialização. A configuração da raiz é feita através da chamada do método setRoot.
@@ -51,6 +71,28 @@ O proximo passo é configurar e instalar as dependências e bibliotecas utilizad
  
 
 # Documentação da API Node
+
+## Descrição
+
+  Modelagem de um nó para estruturas em árvores genéricas.
+  
+## Atributos
+
+### key
+
+  Chave numérica do nó.
+     
+### Parent
+  
+  Nó pai.
+  
+### Left
+  
+  Nó filho da esquerda.
+  
+### Right
+  
+  Nó filho da direita.
 
 ## Constructor
   O constructor da árvore exige ao menos a chave para inicializá-la. A chave precisa ser um objeto numérico e por tanto, o nó só pode conter números.
@@ -98,8 +140,3 @@ O proximo passo é configurar e instalar as dependências e bibliotecas utilizad
 ### toString
   Retorna uma string com o nome da classe seguido dos atributos da classe no formato JSON. 
   
-# Test
-## Test2
-### Test3
-#### Test4
-##### Test5
